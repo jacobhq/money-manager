@@ -64,7 +64,6 @@
 export default {
 	data: () => ({
 		active: "guide",
-		active: false,
 		active2: false,
 		active3: false,
 		name: ""
