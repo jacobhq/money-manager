@@ -1,0 +1,17 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: "@nuxtjs/axios"
+    versions:
+    - 5.13.0
+    - 5.13.1
+  - dependency-name: nuxt
+    versions:
+    - 2.14.12
+    - 2.15.1
+    - 2.15.2
